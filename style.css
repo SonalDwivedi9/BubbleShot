@@ -86,3 +86,25 @@ html,body{
     font-weight:500;
     font-size: 25px;
 }
+
+@media (max-width:600px) {
+ .main{
+    height: 100%;
+    width: 100%;
+ }
+ .elem h2{
+   font-size: 20px;
+ }
+    #ptop{
+        padding: 2px;
+        display: flex;
+        flex-wrap:nowrap;
+        gap: 2px;
+    }
+   
+    .elem, .box{
+        padding: 5px 5px;
+        gap: 7px;
+    }
+    
+}
